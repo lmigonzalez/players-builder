@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.App{
+	background-color: #98B4AA;
+	width: 100%;
+	height: 100vh;
+}
+
+.form{
+	margin: 0 auto;
+	background-color: #74959A;
+	width: 90%;
+	height: auto;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.basic-inf{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	text-align: end;
+}
+
+.role{
+	display: flex;
+	flex-direction: column;
+
+	width: 50%;
+	text-align: end;
+}
+
+.submit{
+	display:inline;
+	width: 5rem;
+	height: 2rem;
+}
+
+.playersinf{
+	margin: 1rem auto;
+	padding: 1rem;
+	border-radius: 10px;
+	background-color: #74959A;
+	width: 30%;
+}
+
