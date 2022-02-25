@@ -62,7 +62,7 @@ function App() {
 
       {users.map((element, index) => {
         return (
-          <div key={element.index} className='playersinf'>
+          <div key={index} className='playersinf'>
             <p>{element.name}</p>
             <p>{element.email}</p>
           </div>

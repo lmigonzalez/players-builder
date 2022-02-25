@@ -22,25 +22,26 @@ const PlayerForm = (props) => {
         <label>
           {" "}
           Name
-          <input   value = {props.name} name="name" type="text" onChange={onChange}/>
+          <input  id="nameInput" value = {props.name} name="name" type="text" onChange={onChange}/>
         </label>
 
         <label>
           {" "}
           Email
-          <input value={props.email} name="email" type="email" onChange={onChange}/>
+          <input id="emailInput" value={props.email} name="email" type="email" onChange={onChange}/>
         </label>
 
         <label>
           {" "}
           Password
-          <input value={props.password} name="password" type="password" onChange={onChange}/>
+          <input id="passwordInput" value={props.password} name="password" type="password" onChange={onChange}/>
         </label>
       </div>
 
       <div className="role">
         <label> Terms Of Service:
 		<input
+      id="checkboxInput"
 			type='checkbox'
 			name='tos'
 			values = {props.values.tos}
@@ -50,7 +51,7 @@ const PlayerForm = (props) => {
         
       </div>
 
-      <input className="submit" type="submit" value="Submit" onSubmit={onSubmit} />
+      <input  id='submit' className="submit" type="submit" value="Submit" onSubmit={onSubmit} />
     </form>
   );
 };
